@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <title>眠语 · 影盏静态原型</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="phone-scale" id="phoneScale">
+      <div class="phone" id="phone">
+        <div class="bezel">
+          <div class="screen" id="screen">
+
+            <header class="mp-bar" id="mpBar">
+              <div class="mp-left">
+                <span class="mp-dots" aria-hidden="true"></span>
+                <span class="mp-title">眠语</span>
+              </div>
+              <div class="mp-capsule" aria-hidden="true">
+                <span class="cap-dots"></span>
+                <span class="cap-split"></span>
+                <span class="cap-circle"></span>
+              </div>
+            </header>
+
+            <div class="badge" id="badge">静态原型 · 非真机 AR</div>
+            <div class="state-tag" id="stateTag" title="验收用状态标签">Idle</div>
+
+            <section class="view view-splash" id="viewSplash" hidden>
+              <div class="splash-mark">眠语</div>
+              <p>娱乐互动 · 夜间陪伴</p>
+            </section>
+
+            <section class="view view-home" id="viewHome">
+              <div class="home-glow" aria-hidden="true"></div>
+              <div class="home-copy">
+                <p class="eyebrow">MIANYU · DEMO</p>
+                <h1>眠语</h1>
+                <p class="sub">娱乐互动 · 夜间陪伴</p>
+                <div class="ip-line">
+                  <strong>影盏</strong>
+                  <span>光影旅伴</span>
+                </div>
+                <p class="lead">今晚只见面这一位。可以先在屏内完成一局，不一定要开相机。</p>
+              </div>
+              <div class="home-figure">
+                <div class="home-actor">
+                  <span class="home-halo" aria-hidden="true"></span>
+                  <img src="assets/yingzhan-figure.png" alt="影盏坐在暖光里，脚落在桌面上" width="448" height="750">
+                </div>
+              </div>
+              <div class="home-actions">
+                <button type="button" class="btn btn-primary" id="btnStartTonight">开始今晚</button>
+                <button type="button" class="btn btn-ghost" id="btnHomeSpace">进入空间</button>
+                <p class="hint-reserve">可以先走屏内。进入空间会先说明相机用途，本原型不接真机相机。</p>
+                <p class="hint-shell">同壳换皮预留，本轮只见面影盏</p>
+              </div>
+            </section>
+
+            <section class="view view-play" id="viewPlay" hidden>
+              <div class="scene" id="scene">
+                <div class="scene-touch" id="sceneTouch"></div>
+                <div class="actor" id="actor" hidden>
+                  <div class="actor-shadow" id="actorShadow"></div>
+                  <div class="actor-motion" id="actorMotion">
+                    <div class="actor-glow" id="actorGlow"></div>
+                    <img class="actor-fig" id="actorFig" src="assets/yingzhan-figure.png" alt="影盏">
+                    <div class="actor-inserts" aria-hidden="true">
+                      <img class="insert insert-a on" id="insertA" src="assets/insert-a.png" alt="">
+                      <img class="insert insert-b" id="insertB" src="assets/insert-b.png" alt="">
+                    </div>
+                    <div class="actor-eyes" aria-hidden="true">
+                      <span class="eye eye-l"></span>
+                      <span class="eye eye-r"></span>
+                    </div>
+                    <div class="palm-glow" id="palmGlow"></div>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="link-space" id="btnPlaySpace">进入空间</button>
+              <div class="sheet" id="sheet"></div>
+            </section>
+
+            <section class="view view-end" id="viewEnd" hidden>
+              <div class="end-inner">
+                <p class="eyebrow">今晚的这一局</p>
+                <h2>今晚就到这儿</h2>
+                <p class="end-body">影盏还在。这是过夜仪式感与角色互动，不是医疗或心理咨询产品。</p>
+                <p class="end-note">结束页不会自动再来一局。</p>
+                <div class="end-actions">
+                  <button type="button" class="btn btn-primary" id="btnBackHome">回到主页</button>
+                  <button type="button" class="btn btn-ghost" id="btnEndSpace">进入空间</button>
+                </div>
+              </div>
+            </section>
+
+            <div class="modal" id="modal" hidden>
+              <div class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle"></div>
+            </div>
+
+            <button type="button" class="end-fab" id="btnEnd">今晚就到这儿</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="open-hint">用浏览器直接打开 <code>index.html</code> 即可，无需启动本地服务器。</p>
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
