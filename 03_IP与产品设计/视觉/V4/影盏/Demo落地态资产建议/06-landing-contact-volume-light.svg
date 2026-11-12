@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1680" viewBox="0 0 2400 1680" role="img" aria-label="影盏 Demo · 落地接触与体积光示意">
+<title>影盏 Demo · 落地接触与体积光示意</title>
+<desc>仅为制作准备示意，不是已做好的模型，不是已绑骨预览，不可当作已可上线资产。尚未建模、尚未绑骨、尚未真机验证。日期：2026-11-12（Asia/Shanghai）</desc>
+<style>
+  .bg { fill: #F6EDDD; }
+  .card { fill: #FCF7EE; stroke: #C4A882; stroke-width: 3; }
+  .ink { fill: #462A1C; }
+  .muted { fill: #785A46; }
+  .green { fill: #2F6B4A; }
+  .red { fill: #8C2E36; }
+  .gold { fill: #7A5620; }
+  .banner { fill: #F5E2C4; stroke: #7D3E26; stroke-width: 2; }
+  .banner-t { fill: #7D3E26; font: 700 16px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; }
+  .title { font: 700 40px "Noto Serif CJK SC", "Noto Serif SC", serif; fill: #462A1C; }
+  .sub { font: 16px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #785A46; }
+  .sub0 { font: 18px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #7D3E26; }
+  .h { font: 700 24px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #462A1C; }
+  .h2 { font: 700 18px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #462A1C; }
+  .b { font: 700 16px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; }
+  .t { font: 15px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #5C3A28; }
+  .s { font: 13px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #785A46; }
+  .note { font: 15px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #5C3A28; }
+</style>
+<rect class="bg" width="2400" height="1680"/>
+<text x="1200" y="60" class="title" text-anchor="middle">影盏 Demo · 落地接触与体积光示意</text>
+<text x="1200" y="100" class="sub0" text-anchor="middle">仅为制作准备示意，不是已做好可上线模型，不是已绑骨预览，不可当作已可上线资产。</text>
+<text x="1200" y="126" class="sub" text-anchor="middle">尚未建模 · 尚未绑骨 · 尚未真机验证。默认坐下；禁止只悬浮；禁止白纸扁剪影。日期：2026-11-12（Asia/Shanghai）</text>
+<text x="1200" y="148" class="sub" text-anchor="middle">形态对齐 V3 基准《04-影盏贴墙呼吸光轨》：圆浑暖琥珀纸灯、木质台面、微靠墙、方形月松插片、软阴影、闭目。不替代 V3 原图，不替代行为正本。</text>
+<rect x="64" y="164" width="2272" height="40" rx="8" class="banner"/>
+<text x="1200" y="190" class="banner-t" text-anchor="middle">示意 ≠ 已实现资产　　关掉所有光效之后，身体仍须坐在桌面或地面上；若关掉光就「没了」或还在半空，即为只做了悬浮</text>
+<rect x="56" y="220" width="1480" height="1040" rx="16" class="card"/>
+<text x="84" y="256" class="h" text-anchor="start">默认稳态：坐下（可微靠墙）· 重心在坐不在漂</text>
+<line x1="80" y1="278" x2="1512" y2="278" stroke="#C4A882" stroke-width="2"/>
+<rect x="1136" y="300" width="372" height="730" fill="#E2CEB0" stroke="#B8A084" stroke-width="2"/>
+<text x="1322.0" y="324" class="s" text-anchor="middle">立面（墙）· 可有可无</text>
+<rect x="136" y="1030" width="1372" height="28" fill="#A67A4E" stroke="#785636" stroke-width="2"/>
+<polygon points="136,1058 1508,1058 1508,1116 120,1116" fill="#8A623E" stroke="#6E4E30"/>
+<rect x="156" y="1116" width="50" height="120" fill="#805A38" stroke="#64482C"/>
+<ellipse cx="1216" cy="860" rx="110" ry="170" fill="#966E46" fill-opacity="0.22"/>
+<ellipse cx="986" cy="1034" rx="140" ry="22" fill="#503219" fill-opacity="0.35"/>
+<ellipse cx="986" cy="1022" rx="120" ry="28" fill="#ECC68C" stroke="#BA8C60" stroke-width="2"/>
+<rect x="878" y="855" width="220" height="150" rx="50" fill="#F0CC8C" stroke="#BA8C60" stroke-width="2"/>
+<circle cx="996" cy="753" r="100" fill="#ECBA6E"/>
+<circle cx="996" cy="753" r="78" fill="#F7D28C"/>
+<circle cx="996" cy="753" r="50" fill="#FFE2A0"/>
+<circle cx="996" cy="753" r="98" fill="none" stroke="#B08256" stroke-width="2"/>
+<path d="M964 761 Q978 773 990 761" fill="none" stroke="#463228" stroke-width="5" stroke-linecap="round"/>
+<path d="M1002 761 Q1014 773 1028 761" fill="none" stroke="#463228" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="916" cy="895" rx="44" ry="44" fill="#F0CC8C" stroke="#BA8C60" stroke-width="2"/>
+<ellipse cx="1066" cy="895" rx="44" ry="44" fill="#F0CC8C" stroke="#BA8C60" stroke-width="2"/>
+<rect x="978" y="905" width="16" height="14" fill="#C4A060" stroke="#8C6E46"/>
+<path d="M986 905 L968 879 M986 905 L986 871 M986 905 L1002 881" stroke="#5A7846" stroke-width="2" fill="none"/>
+<rect x="974" y="605" width="44" height="62" fill="#C8A86C" stroke="#785A32" stroke-width="2"/>
+<polygon points="984,635 992,617 1000,635" fill="#FFECCC" stroke="#8C6E3C"/>
+<polygon points="994,637 1002,613 1010,637" fill="#FFECCC" stroke="#8C6E3C"/>
+<circle cx="1008" cy="621" r="7" fill="#FFECCC" stroke="#8C6E3C"/>
+<circle cx="1012" cy="621" r="6" fill="#C8A86C"/>
+<circle cx="1152" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1168" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1184" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1200" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1216" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1232" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1248" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1264" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1280" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1296" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1312" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1328" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1344" cy="1022" r="4" fill="#ECBE6E"/>
+<circle cx="1360" cy="1022" r="4" fill="#ECBE6E"/>
+<text x="92" y="316" class="h2" text-anchor="start">插片（内容包）</text>
+<text x="92" y="340" class="t" text-anchor="start">真实槽位，竖直插在头顶</text>
+<text x="92" y="362" class="t" text-anchor="start">默认月松镂空，被体内光照亮</text>
+<text x="92" y="384" class="s" text-anchor="start">不是脸，不是换装表演</text>
+<line x1="306" y1="330" x2="974" y2="623" stroke="#7A5620" stroke-width="2"/>
+<text x="92" y="743" class="h2" text-anchor="start">圆浑纸灯身体</text>
+<text x="92" y="769" class="t" text-anchor="start">暖琥珀内透光，有体积</text>
+<text x="92" y="791" class="t" text-anchor="start">禁白纸扁剪影，禁悬浮夜灯</text>
+<text x="92" y="813" class="s" text-anchor="start">关光后体积与落点仍须在</text>
+<text x="92" y="835" class="s" text-anchor="start">头上暖色仅为内透光示意，不是已做好的材质</text>
+<text x="92" y="975" class="b ink" text-anchor="start">手中小盆栽</text>
+<text x="92" y="995" class="s" text-anchor="start">V3 视觉道具，不另立官方状态</text>
+<text x="144" y="1018" class="s" text-anchor="start">木质承面（桌面 / 地面）</text>
+<line x1="1106" y1="867" x2="1130" y2="867" stroke="#5C3A28" stroke-width="2" marker-end="url(#arr)"/>
+<text x="1152" y="851" class="b ink" text-anchor="start">可微靠墙</text>
+<text x="1152" y="869" class="s" text-anchor="start">墙是次接触，不是唯一承重</text>
+<text x="1152" y="887" class="s" text-anchor="start">墙上软阴影证明体积</text>
+<text x="1152" y="350" class="t" text-anchor="start">墙根光边</text>
+<text x="1152" y="370" class="s" text-anchor="start">环境线索，非身体附件</text>
+<line x1="786" y1="1006" x2="786" y2="900" stroke="#8C2E36" stroke-width="3"/>
+<line x1="770" y1="1010" x2="802" y2="1010" stroke="#8C2E36" stroke-width="4"/>
+<line x1="786" y1="1010" x2="786" y2="1038" stroke="#2F6B4A" stroke-width="3"/>
+<text x="762" y="934" class="b red" text-anchor="end">禁止 Y 轴上浮</text>
+<text x="762" y="954" class="s" text-anchor="end">（不得用升起补灯感）</text>
+<text x="762" y="1022" class="b green" text-anchor="end">高度锁在承面上</text>
+<line x1="856" y1="1080" x2="966" y2="1080" stroke="#FCF7EE" stroke-width="3"/>
+<line x1="1006" y1="1080" x2="1116" y2="1080" stroke="#FCF7EE" stroke-width="3"/>
+<text x="986" y="1066" class="s" text-anchor="middle">只允许贴面平移（靠近 10–15 cm；躲藏沿墙 / 沿平面滑）</text>
+<text x="986" y="1066" class="s" fill="#FCF7EE" text-anchor="middle">只允许贴面平移（靠近 10–15 cm；躲藏沿墙 / 沿平面滑）</text>
+<text x="986" y="1142" class="t" text-anchor="middle">底面接触斑（坐实证明）</text>
+<text x="796.0" y="1242" class="s" text-anchor="middle">出现须在落点淡入，不从天花板掉下。阴影先于或同时于身体出现。本图人物为示意简化，不以本图替代 V3 视觉稿。</text>
+<rect x="1560" y="220" width="784" height="248" rx="12" class="card"/>
+<text x="1578" y="252" class="h2" text-anchor="start">靠 · 短切换，非主路径必演</text>
+<text x="1578" y="288" class="t" text-anchor="start">仍保留底面主接触，墙为更明显的次接触</text>
+<text x="1578" y="312" class="t" text-anchor="start">。不得做成吸在墙上的贴片或墙中剪纸。</text>
+<text x="1578" y="336" class="t" text-anchor="start">Demo 主路径不必巡演三姿。</text>
+<rect x="1560" y="484" width="784" height="248" rx="12" class="card"/>
+<text x="1578" y="516" class="h2" text-anchor="start">蹲 · 短切换，非主路径必演</text>
+<text x="1578" y="552" class="t" text-anchor="start">接触面更紧凑，仍完全在承面上，可贴近</text>
+<text x="1578" y="576" class="t" text-anchor="start">墙根。身体仍须读出落地，不得改成悬浮</text>
+<text x="1578" y="600" class="t" text-anchor="start">剪影。</text>
+<rect x="1560" y="748" width="784" height="248" rx="12" class="card"/>
+<text x="1578" y="780" class="h2" text-anchor="start">无立面时仍坐下</text>
+<text x="1578" y="816" class="t" text-anchor="start">只有桌面、没有墙，也坐在桌面上，用软</text>
+<text x="1578" y="840" class="t" text-anchor="start">阴影建立重量。禁止上浮补「灯感」。此</text>
+<text x="1578" y="864" class="t" text-anchor="start">条行为正本已确认，须真机验证，但不回</text>
+<text x="1578" y="888" class="t" text-anchor="start">退为悬浮。</text>
+<rect x="1560" y="1012" width="784" height="248" rx="12" class="card"/>
+<text x="1578" y="1044" class="h2" text-anchor="start">屏内降级仍须有落点</text>
+<text x="1578" y="1080" class="t" text-anchor="start">拒相机或丢平面走屏内同构：仍被放下在</text>
+<text x="1578" y="1104" class="t" text-anchor="start">可见平面上，带接触阴影。不能改回悬浮</text>
+<text x="1578" y="1128" class="t" text-anchor="start">方案。弱光成功率尚未真机验证。</text>
+<rect x="56" y="1280" width="2288" height="364" rx="14" class="card"/>
+<text x="84" y="1308" class="h2" text-anchor="start">制作准备要点（全部尚未实施，须真机验证后才能视为可行）</text>
+<text x="84" y="1336" class="note" text-anchor="start">「停留」只作出现后、躲藏前（及回位后轻互动前）的短过渡拍，可跳过，不升成与坐下 / 躲藏并列的官方状态名。「观察」并入闲聊，不另立状态名。</text>
+<text x="84" y="1364" class="note" text-anchor="start">找到后一次轻互动的「插片确认 / 轮廓溶换」与晚安关光，是本轮故事与 Demo 的执行默认（Design 第一次验收建议），不是已立项锁定，也不是用户已拍板。本图只标接口位置，不把溶换画成已实现特效。</text>
+<text x="84" y="1392" class="note" text-anchor="start">10–15 cm 为已确认的靠近平移参数；角色世界尺度尚未锁定，换算后须真机核验。弱光、斜面、无墙与丢平面均不得退回悬浮备用网格。</text>
+<text x="84" y="1420" class="note" text-anchor="start">本图为结构示意，不可导入引擎，不作为已完成三维、已绑骨或已可上线的证据。矢量源与 PNG 预览同属示意，不以本图替代 V3 基准图。</text>
+</svg>
