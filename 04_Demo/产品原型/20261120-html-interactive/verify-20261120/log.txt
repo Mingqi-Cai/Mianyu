@@ -1,0 +1,13 @@
+home 进入空间 visible: true
+S2 进入空间 chip hidden: true
+S2 页脚今晚就到这儿: true
+S4 state: {"tag":"InScreenPlay · Hidden","title":"躲起来了","buttons":["算了，回来吧"],"hasSummon":true,"endFab":true,"sheetEnds":false,"spaceChip":false}
+S5 state: {"tag":"InScreenPlay · Hidden","buttons":["算了，回来吧"],"hasSummon":true,"endFab":true,"sheetEnds":false,"spaceChip":false}
+S6 before ritual: {"tag":"InScreenPlay · Found","title":"它回来了","buttons":["插片确认","开始静默沟通","先看着"],"sheetEnds":false,"endFab":true,"spaceChip":false,"sheetHeight":101,"sheetTop":700,"sheetTopInScreen":671,"actorTop":415,"actorBottom":655,"actorMid":523,"midAboveSheet":true,"handsGuessAboveSheet":true}
+S6 after ritual: {"tag":"InScreenPlay · Found","title":"它回来了","buttons":["开始静默沟通","先看着"],"sheetEnds":false,"endFab":true,"spaceChip":false,"sheetHeight":122,"sheetTop":679,"sheetTopInScreen":650,"actorTop":367,"actorBottom":655,"actorMid":497,"midAboveSheet":true,"handsGuessAboveSheet":true}
+S7: {"tag":"InScreenPlay · SilentComm","endFab":true,"sheetEnds":false,"spaceChip":false,"warn":"本原型不真开麦、不做语音识别。下面用意图按钮模拟「听懂」。"}
+S8: {"tag":"InScreenPlay · SilentComm","endFab":true,"sheetEnds":false,"spaceChip":false,"intents":["确认","靠近","闲聊","晚安"],"mic":"听着呢（模拟，未接真麦克风）"}
+S9: {"tag":"InScreenPlay · Outro","endFabHidden":true,"spaceChip":false,"title":"今晚就到这儿"}
+S10: {"tag":"Ended","endFabHidden":true,"endSpace":true,"body":"影盏还在。这是过夜仪式感与角色互动，不是医疗或心理咨询产品。"}
+ERRORS:
+none
