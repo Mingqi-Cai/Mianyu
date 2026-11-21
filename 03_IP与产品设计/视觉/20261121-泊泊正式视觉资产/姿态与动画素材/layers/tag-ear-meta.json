@@ -1,0 +1,37 @@
+{
+  "figure_size": [
+    1010,
+    737
+  ],
+  "crop_in_official": [
+    0,
+    105,
+    1010,
+    842
+  ],
+  "source_sha256": "46007d733e5faf3c9e457c4ed3b37e687c6c18fd0130a0aa11d56256861779f6",
+  "figure_sha256": "4aef69898d6f525b977ea7b8ac0f3a3b0cb5e99bb2c96b382190cc04c213ae38",
+  "hinge_figure_xy": [
+    675.0,
+    285.0
+  ],
+  "hinge_percent": {
+    "left": 66.83168316831683,
+    "top": 38.670284938941656
+  },
+  "confirm_from_official_rest_deg": 10,
+  "confirm_pil_rotate": 10,
+  "confirm_direction": "逆时针（PIL rotate +10°）：在官方残存帧已有牌耳姿态上再侧倾约10°，然后回正到官方帧。官方帧本身就是回正/标准坐姿，不另造更直立的默认牌耳。",
+  "medal_percent": {
+    "left": 53.35,
+    "top": 61.18,
+    "radius_of_width": 5.41
+  },
+  "night_grade": {
+    "expo": 0.72,
+    "gamma": 1.1,
+    "warm": 1.04
+  },
+  "glow_pad_px": 120,
+  "note": "回正与落位、回位使用官方残存帧去底切图原像素，不是重建合成。侧倾帧是官方像素的牌耳层旋转合成，不是新绘。"
+}
