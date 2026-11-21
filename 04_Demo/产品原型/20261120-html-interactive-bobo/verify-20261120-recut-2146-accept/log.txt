@@ -1,0 +1,42 @@
+hashes before: {"CHANGE.md":{"expected":"e95e0e5984c9ab39a35d56fbee4928e7e881380d1237c8dbc57b7c519e5d27ba","got":"e95e0e5984c9ab39a35d56fbee4928e7e881380d1237c8dbc57b7c519e5d27ba","match":true},"prototype/index.html":{"expected":"998e82fd05c120b4f6f6033165105dbe2e5a715594df1e3952e6acf709be2a9c","got":"998e82fd05c120b4f6f6033165105dbe2e5a715594df1e3952e6acf709be2a9c","match":true},"prototype/assets/styles.css":{"expected":"c1d24146543e37600755ac2dc64b1cc3315dc8a8ff9413f2b694431462864ffc","got":"c1d24146543e37600755ac2dc64b1cc3315dc8a8ff9413f2b694431462864ffc","match":true},"prototype/assets/app.js":{"expected":"b3430c3d7a68a173064acdc8877c0a08b5963dc565c700128fa0c338b660abe4","got":"b3430c3d7a68a173064acdc8877c0a08b5963dc565c700128fa0c338b660abe4","match":true},"prototype/assets/bobo-figure.png":{"expected":"4aef69898d6f525b977ea7b8ac0f3a3b0cb5e99bb2c96b382190cc04c213ae38","got":"4aef69898d6f525b977ea7b8ac0f3a3b0cb5e99bb2c96b382190cc04c213ae38","match":true},"prototype/assets/bobo-frame.jpg":{"expected":"46007d733e5faf3c9e457c4ed3b37e687c6c18fd0130a0aa11d56256861779f6","got":"46007d733e5faf3c9e457c4ed3b37e687c6c18fd0130a0aa11d56256861779f6","match":true}}
+app.js stripped has getUserMedia/mediaDevices: false
+shot 01-home
+home copy: {"title":"眠语 · 泊泊屏内 Demo","ip":"泊泊\n首发角色","lead":"今晚见面的是首发角色泊泊。可以先在屏内完成一局，不一定要开相机。","hint":"其余角色仍为同壳预留，不是本轮首发","src":"assets/bobo-frame.jpg","text":"MIANYU · DEMO\n\n眠语\n\n娱乐互动 · 夜间陪伴\n\n泊泊\n首发角色\n\n今晚见面的是首发角色泊泊。可以先在屏内完成一局，不一定要开相机。\n\n开始今晚\n进入空间\n\n可以先走屏内。进入空间会先说明相机用途，本原型不接真机相机。\n\n其余角色仍为同壳预留，不是本轮首发","hasYingzhanAsLead":false,"hasBobo":true,"has疗效":false,"has助眠":false,"has哄睡":false}
+home 进入空间 visible: true
+home assets: {"imgs":[{"src":"assets/bobo-frame.jpg","natW":1152,"natH":864,"className":""},{"src":"assets/bobo-figure.png","natW":1010,"natH":737,"className":"actor-fig"},{"src":"assets/insert-a.png","natW":136,"natH":134,"className":"insert insert-a on"},{"src":"assets/insert-b.png","natW":136,"natH":134,"className":"insert insert-b"}],"inserts":[{"tag":"IMG","id":"insertA","src":"assets/insert-a.png","display":"block","className":"insert insert-a on"},{"tag":"IMG","id":"insertB","src":"assets/insert-b.png","display":"block","className":"insert insert-b"}],"hasGlowImg":false,"eyesDisplay":"none","insertsWrapDisplay":"none","palmOpacity":"0.35","actorClass":"actor","actorBox":{"w":0,"h":0,"bottom":0},"bodyClass":"","phoneClass":"phone"}
+S2 进入空间 chip hidden: true
+S2 页脚今晚就到这儿: true
+shot 02-placing
+seated assets: {"imgs":[{"src":"assets/bobo-frame.jpg","natW":1152,"natH":864,"className":""},{"src":"assets/bobo-figure.png","natW":1010,"natH":737,"className":"actor-fig"},{"src":"assets/insert-a.png","natW":136,"natH":134,"className":"insert insert-a on"},{"src":"assets/insert-b.png","natW":136,"natH":134,"className":"insert insert-b"}],"inserts":[{"tag":"IMG","id":"insertA","src":"assets/insert-a.png","display":"block","className":"insert insert-a on"},{"tag":"IMG","id":"insertB","src":"assets/insert-b.png","display":"block","className":"insert insert-b"}],"hasGlowImg":false,"eyesDisplay":"none","insertsWrapDisplay":"none","palmOpacity":"0.35","actorClass":"actor","actorBox":{"w":276,"h":201,"bottom":655},"bodyClass":"","phoneClass":"phone"}
+shot 03-seated
+shot 04-relocating
+shot 05-seated-2
+after one relocate, buttons: ["就在这儿"]
+third relocate available: false
+S4 state: {"tag":"InScreenPlay · Hidden","title":"躲起来了","buttons":["算了，回来吧"],"hasSummon":true}
+shot 06-hide-S4
+S5 state: {"tag":"InScreenPlay · Hidden","title":"找一找","buttons":["算了，回来吧"],"hasSummon":true,"actorHiddenClass":"actor is-hidden","actorHiddenAttr":false}
+shot 07-hide-S5
+S6 before ritual: {"tag":"InScreenPlay · Found","title":"它回来了","buttons":["插片确认","开始静默沟通","先看着"],"sheetEnds":false,"endFab":true,"spaceChip":false,"sheetHeight":101,"sheetTop":700,"sheetTopInScreen":671,"actorTop":474,"actorBottom":655,"midAboveSheet":true}
+shot 08-found-summon
+S6 after ritual: {"tag":"InScreenPlay · Found","title":"它回来了","buttons":["开始静默沟通","先看着"],"sheetEnds":false,"endFab":true,"spaceChip":false,"sheetHeight":122,"sheetTop":679,"sheetTopInScreen":650,"actorTop":454,"actorBottom":655,"midAboveSheet":true}
+shot 09-after-ritual
+S7: {"tag":"InScreenPlay · SilentComm","title":"开麦之前","warn":"本原型不真开麦、不做语音识别。下面用意图按钮模拟「听懂」。","sheetText":"开麦之前\n\n如果打开麦克风，泊泊会用动作回应你说的话。语音只用来触发角色动作，可以随时关掉。这是娱乐互动，不是监测，也不是咨询。\n\n本原型不真开麦、不做语音识别。下面用意图按钮模拟「听懂」。\n\n开麦试试看\n先看着（不采集语音）\n跳过","endFab":true,"sheetEnds":false}
+shot 10-mic-explain
+S8: {"tag":"InScreenPlay · SilentComm","intents":["确认","靠近","闲聊","晚安"],"mic":"听着呢（模拟，未接真麦克风）","sheetText":"静默沟通\n\n听着呢（模拟，未接真麦克风）\n\n点意图，泊泊用动作短短回应。只动、不说话。\n\n确认\n靠近\n闲聊\n晚安\n关麦","endFab":true,"sheetEnds":false}
+shot 11-silent-comm
+shot 12-intent-ack
+shot 13-intent-near
+shot 14-intent-chat
+shot 15-intent-night
+media calls after intents: []
+S9: {"tag":"InScreenPlay · Outro","title":"今晚就到这儿","endFabHidden":true,"sheetText":"今晚就到这儿\n\n泊泊正在关光。身上和边缘的暖光慢慢收起来。"}
+shot 16-outro
+S10: {"tag":"Ended","endSpace":true,"body":"泊泊还在。这是过夜仪式感与角色互动，不是医疗或心理咨询产品。","text":"今晚的这一局\n\n今晚就到这儿\n\n泊泊还在。这是过夜仪式感与角色互动，不是医疗或心理咨询产品。\n\n结束页不会自动再来一局。\n\n回到主页\n进入空间"}
+shot 17-end
+shot 18-hide-S5-run2
+run2 hidden actor box: {"x":111.390625,"y":582.7493743896484,"w":198.72000122070312,"h":145.00125122070312,"hidden":false,"cls":"actor is-hidden"}
+run2 found title: 找到了
+shot 19-found-by-click
+ERRORS:
+none
