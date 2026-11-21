@@ -1,0 +1,32 @@
+本目录图像来源（屏内适配，不是新的视觉正本，不得当新正本入库）
+
+用字：/workspace/mianyu-ip-names/OFFICIAL-NAMES.txt
+SHA-256：9fc86faedf76772f1efc710edcef76da0ef68938debfe1f086b5bd55900c0269
+本包对应其中第 4 个正式 IP「泊泊」。
+
+bobo-figure.png
+  Design 2026-11-20 21:46 屏内切图原样拷入，仅用于本独立总装目录。
+  源文件：/workspace/mianyu-ip-system-finals/2026-11-20-屏内换皮素材-bobo-recut-2146/assets/bobo-figure.png
+  SHA-256：4aef69898d6f525b977ea7b8ac0f3a3b0cb5e99bb2c96b382190cc04c213ae38
+  尺寸：1010×737 RGBA，760517 字节。
+  不是丢失的 21:46 终验试切图 6347736443eabf32fa339392af02ad8c5c5ea1e30e90d370cc933756d90ecde1（1011×739，726499 字节）。
+  不是 21:54 成稿切图 67ca03c38043b62f690fedc0d00f32ce4ef72f15a5c63d329d86a3dd8f6e597d（1016×747，738888 字节）。
+  不得入仓，不得当成新的官方 IP 正本。
+
+bobo-frame.jpg
+  官方 V3 残存展示帧原样复制，未改像素。
+  源文件：/workspace/mianyu-five-ip-images/04-泊泊-V3残存展示帧.jpg
+  SHA-256：46007d733e5faf3c9e457c4ed3b37e687c6c18fd0130a0aa11d56256861779f6
+  尺寸：1152×864 JPEG。目前没有该角色 V4 专包。
+  21:46 文本主页引用本文件。
+
+insert-a.png / insert-b.png
+  21:46 包原有插片，随已终验影盏 Demo 副本一并拷来。
+  insert-a SHA-256：4f606d490b3e18f077e87d6696b745adcb96726f23ccd90fdfb5259220c119f2
+  insert-b SHA-256：1ebd7be87646be19fe07a5a0e92478445acd0a70539718b4f0c2424e3e32e1c3
+  页面引用这两张。未使用 night-rev 插片，也未使用 Design 成稿 bobo-insert-a。
+
+room-night.jpg、yingzhan-figure.png、yingzhan-wall.jpg
+  随已终验影盏 Demo 副本一并拷来。屏内场景底为 room-night.jpg。后两张本换皮包页面不再引用，仅随 21:46 包未污染资产保留。
+
+本包不含：21:54 污染的 index.html / styles.css / CHANGE.md / bobo-figure.png，bobo-insert-a（及 @2x），bobo-wall.jpg，night-rev 任何文件，以及走查截图占位图。

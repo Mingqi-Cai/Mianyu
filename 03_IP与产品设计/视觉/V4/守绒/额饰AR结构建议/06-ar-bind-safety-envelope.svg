@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1680" viewBox="0 0 2400 1680" role="img" aria-label="守绒 V4 额饰 · AR 绑定与安全包络示意">
+<title>守绒 V4 额饰 · AR 绑定与安全包络示意</title>
+<desc>仅为制作准备示意，不是已做好的模型，不是已绑骨预览，不可当作已可上线资产。尚未建模、尚未绑骨、尚未真机验证。日期：2026-11-12（Asia/Shanghai）</desc>
+<style>
+  .bg { fill: #F6EDDD; }
+  .card { fill: #FCF7EE; stroke: #C4A882; stroke-width: 3; }
+  .ink { fill: #462A1C; }
+  .muted { fill: #785A46; }
+  .green { fill: #2F6B4A; }
+  .red { fill: #8C2E36; }
+  .gold { fill: #7A5620; }
+  .banner { fill: #F5E2C4; stroke: #7D3E26; stroke-width: 2; }
+  .banner-t { fill: #7D3E26; font: 700 16px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; }
+  .title { font: 700 40px "Noto Serif CJK SC", "Noto Serif SC", serif; fill: #462A1C; }
+  .sub { font: 16px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #785A46; }
+  .sub0 { font: 18px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #7D3E26; }
+  .h { font: 700 24px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #462A1C; }
+  .h2 { font: 700 18px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #462A1C; }
+  .b { font: 700 16px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; }
+  .t { font: 15px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #5C3A28; }
+  .s { font: 13px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #785A46; }
+  .note { font: 15px "Noto Sans CJK SC", "Noto Sans SC", sans-serif; fill: #5C3A28; }
+</style>
+<rect class="bg" width="2400" height="1680"/>
+<text x="1200" y="60" class="title" text-anchor="middle">守绒 V4 额饰 · AR 绑定与安全包络示意</text>
+<text x="1200" y="100" class="sub0" text-anchor="middle">仅为制作准备示意，不是已做好的模型，不是已绑骨预览，不可当作已可上线资产。</text>
+<text x="1200" y="126" class="sub" text-anchor="middle">尚未建模 · 尚未绑骨 · 尚未真机验证。形态按配饰正本三件式。用词为「发际」。日期：2026-11-12（Asia/Shanghai）</text>
+<text x="1200" y="148" class="sub" text-anchor="middle">不替代角色视觉稿 02 / 03 / 04，也不替代配饰结构图 08。本图只补充绑定层级与安全包络。</text>
+<rect x="64" y="164" width="2272" height="40" rx="8" class="banner"/>
+<text x="1200" y="190" class="banner-t" text-anchor="middle">示意 ≠ 已实现资产　　三件式：发际双点固位 + 极短暗红浅 V 悬绳 + 中上额暗金盘长守结 + 左右极小暗金豆（侧豆并入绳层）</text>
+<rect x="56" y="220" width="1130" height="980" rx="16" class="card"/>
+<rect x="1214" y="220" width="1130" height="980" rx="16" class="card"/>
+<text x="84" y="256" class="h" text-anchor="start">正面 · 绑定、清空区与摆动包络</text>
+<text x="1242" y="256" class="h" text-anchor="start">侧面 · 悬空间隙、安全线与父子关系</text>
+<line x1="80" y1="278" x2="1162" y2="278" stroke="#C4A882" stroke-width="2"/>
+<line x1="1238" y1="278" x2="2320" y2="278" stroke="#C4A882" stroke-width="2"/>
+<circle cx="621.4" cy="660" r="46" fill="#C89462" stroke="#A87848" stroke-width="2"/>
+<circle cx="801.4" cy="660" r="46" fill="#C89462" stroke="#A87848" stroke-width="2"/>
+<circle cx="641.4" cy="590" r="44" fill="#D2A470" stroke="#A87848" stroke-width="2"/>
+<circle cx="781.4" cy="590" r="44" fill="#D2A470" stroke="#A87848" stroke-width="2"/>
+<circle cx="711.4" cy="555" r="48" fill="#D2A470" stroke="#A87848" stroke-width="2"/>
+<circle cx="601.4" cy="730" r="40" fill="#E4C08C" stroke="#A87848" stroke-width="2"/>
+<circle cx="821.4" cy="730" r="40" fill="#E4C08C" stroke="#A87848" stroke-width="2"/>
+<ellipse cx="711.4" cy="710" rx="110" ry="118" fill="#ECD4AC" stroke="#C8A67E" stroke-width="2"/>
+<circle cx="711.4" cy="585" r="40" fill="#E4C08C" stroke="#C89462" stroke-width="2"/>
+<circle cx="671.4" cy="600" r="30" fill="#E4C08C" stroke="#C89462" stroke-width="2"/>
+<circle cx="751.4" cy="600" r="30" fill="#E4C08C" stroke="#C89462" stroke-width="2"/>
+<path d="M649.4 706 Q675.4 690 699.4 708" fill="none" stroke="#764228" stroke-width="8" stroke-linecap="round"/>
+<path d="M723.4 708 Q747.4 690 773.4 706" fill="none" stroke="#764228" stroke-width="8" stroke-linecap="round"/>
+<path d="M663.4 732 Q677.4 744 691.4 732" fill="none" stroke="#463024" stroke-width="5" stroke-linecap="round"/>
+<path d="M731.4 732 Q745.4 744 759.4 732" fill="none" stroke="#463024" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="711.4" cy="762" rx="12" ry="10" fill="#824A30"/>
+<path d="M697.4 784 Q711.4 794 725.4 784" fill="none" stroke="#8C5A46" stroke-width="2"/>
+<line x1="685.4" y1="592" x2="703.4" y2="622" stroke="#7A242C" stroke-width="5"/>
+<line x1="737.4" y1="592" x2="719.4" y2="622" stroke="#7A242C" stroke-width="5"/>
+<circle cx="694.4" cy="616.0" r="6" fill="#A87A34" stroke="#7A5620" stroke-width="2"/>
+<circle cx="728.4" cy="616.0" r="6" fill="#A87A34" stroke="#7A5620" stroke-width="2"/>
+<circle cx="685.4" cy="592" r="8" fill="#D6B060" stroke="#7A5620" stroke-width="3"/>
+<circle cx="685.4" cy="592" r="3" fill="#FCF7EE" stroke="#7A5620"/>
+<circle cx="737.4" cy="592" r="8" fill="#D6B060" stroke="#7A5620" stroke-width="3"/>
+<circle cx="737.4" cy="592" r="3" fill="#FCF7EE" stroke="#7A5620"/>
+<circle cx="711.4" cy="640" r="40" fill="#E8C878" fill-opacity="0.45"/>
+<g transform="translate(711.4,640)" fill="none" stroke="#7A5620" stroke-width="4"><circle cx="-14" cy="-14" r="11"/><circle cx="14" cy="-14" r="11"/><circle cx="-14" cy="14" r="11"/><circle cx="14" cy="14" r="11"/><rect x="-18" y="-10" width="36" height="20" rx="8"/><rect x="-10" y="-18" width="20" height="36" rx="8"/></g>
+<ellipse cx="711.4" cy="640" rx="68" ry="48" fill="none" stroke="#8C2E36" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="616.4" y1="714" x2="806.4" y2="714" stroke="#3E7A56" stroke-width="3" stroke-dasharray="10 6"/>
+<rect x="651.4" y="672" width="120" height="42" fill="#509064" fill-opacity="0.22"/>
+<path d="M821.4 722 H835.4 V812 H821.4" fill="none" stroke="#2F6B4A" stroke-width="2"/>
+<circle cx="100" cy="592" r="13" fill="#462A1C"/><text x="100" y="597" class="b" fill="#FCF7EE" text-anchor="middle">1</text>
+<text x="120" y="586" class="b ink" text-anchor="start">固位：发际双点暗金扣环</text>
+<text x="120" y="606" class="s" text-anchor="start">藏进鬃毛；跟颅骨，不随表情</text>
+<line x1="116" y1="592" x2="673.4" y2="592" stroke="#462A1C" stroke-width="1"/>
+<circle cx="100" cy="662" r="13" fill="#8C2E36"/><text x="100" y="667" class="b" fill="#FCF7EE" text-anchor="middle">2</text>
+<text x="120" y="656" class="b red" text-anchor="start">悬绳：极短暗红浅 V</text>
+<text x="120" y="676" class="s" text-anchor="start">唯一动作层「极慢晃动一拍」</text>
+<circle cx="100" cy="740" r="13" fill="#7A5620"/><text x="100" y="745" class="b" fill="#FCF7EE" text-anchor="middle">3</text>
+<text x="120" y="734" class="b gold" text-anchor="start">守结：暗金盘长结，轻悬中上额</text>
+<text x="120" y="754" class="s" text-anchor="start">互动触点与发光体；随绳微摆</text>
+<circle cx="1134" cy="572" r="13" fill="#7A5620"/><text x="1134" y="577" class="b" fill="#FCF7EE" text-anchor="middle">4</text>
+<text x="1116" y="566" class="b gold" text-anchor="end">侧豆：并入绳层</text>
+<text x="1116" y="584" class="s" text-anchor="end">随绳微动，下沿不过眉尖</text>
+<text x="791.4" y="600" class="b red" text-anchor="start">摆动包络</text>
+<text x="791.4" y="618" class="s" text-anchor="start">（建议起算，须真机验证）</text>
+<text x="791.4" y="634" class="s" text-anchor="start">任何一帧不得越安全线</text>
+<text x="601.4" y="687.0" class="b green" text-anchor="end">眉上额绒空带</text>
+<text x="601.4" y="705.0" class="s" text-anchor="end">不得贴眉</text>
+<text x="821.4" y="719" class="b green" text-anchor="start">眉上安全线</text>
+<text x="851.4" y="747.0" class="b green" text-anchor="start">面部清空区</text>
+<text x="851.4" y="767.0" class="s" text-anchor="start">眉、眼、鼻、嘴必须完全外露</text>
+<text x="621.0" y="1176" class="s" text-anchor="middle">二维缩小后仍须读成「短 V 绳 + 中央暗金守结」  ·  图中光晕仅为分档示意，不是已做好的材质</text>
+<circle cx="1574" cy="520" r="48" fill="#D2A470" stroke="#A87848" stroke-width="2"/>
+<circle cx="1544" cy="570" r="44" fill="#C89462" stroke="#A87848" stroke-width="2"/>
+<circle cx="1559" cy="640" r="42" fill="#D2A470" stroke="#A87848" stroke-width="2"/>
+<circle cx="1624" cy="505" r="34" fill="#E4C08C" stroke="#A87848" stroke-width="2"/>
+<ellipse cx="1614" cy="620" rx="66" ry="82" fill="#ECD4AC" stroke="#C8A67E" stroke-width="2"/>
+<ellipse cx="1674" cy="650" rx="40" ry="30" fill="#F0E0C4" stroke="#C8A67E" stroke-width="2"/>
+<circle cx="1710" cy="656" r="12" fill="#824A30"/>
+<path d="M1634 612 Q1656 598 1680 618" fill="none" stroke="#764228" stroke-width="7" stroke-linecap="round"/>
+<path d="M1650 638 Q1662 648 1674 636" fill="none" stroke="#463024" stroke-width="4" stroke-linecap="round"/>
+<line x1="1610" y1="542" x2="1678" y2="580" stroke="#7A242C" stroke-width="5"/>
+<circle cx="1610" cy="542" r="8" fill="#D6B060" stroke="#7A5620" stroke-width="3"/>
+<circle cx="1647.0" cy="565.0" r="6" fill="#A87A34" stroke="#7A5620" stroke-width="2"/>
+<ellipse cx="1684" cy="588" rx="9" ry="24" fill="#A87A34" stroke="#7A5620" stroke-width="2"/>
+<line x1="1658" y1="532" x2="1658" y2="632" stroke="#3E7A56" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="1658" y1="588" x2="1672" y2="588" stroke="#2F6B4A" stroke-width="2"/>
+<ellipse cx="1684" cy="588" rx="26" ry="38" fill="none" stroke="#8C2E36" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="1638" y1="604" x2="1754" y2="604" stroke="#3E7A56" stroke-width="3" stroke-dasharray="10 6"/>
+<circle cx="1254" cy="542" r="13" fill="#462A1C"/><text x="1254" y="547" class="b" fill="#FCF7EE" text-anchor="middle">1</text>
+<text x="1272" y="536" class="b ink" text-anchor="start">固位藏于鬃毛发际</text>
+<text x="1272" y="554" class="s" text-anchor="start">水平固位，不是宽额带</text>
+<line x1="1270" y1="542" x2="1600" y2="542" stroke="#462A1C"/>
+<circle cx="1254" cy="596" r="13" fill="#7A5620"/><text x="1254" y="601" class="b" fill="#FCF7EE" text-anchor="middle">3</text>
+<text x="1272" y="590" class="b gold" text-anchor="start">守结停在眉骨以上</text>
+<text x="1272" y="608" class="s" text-anchor="start">中上额前方轻悬</text>
+<text x="1724" y="538" class="s" text-anchor="start">前后摆动包络</text>
+<text x="1724" y="554" class="s" text-anchor="start">不得贴脸或嵌入额绒</text>
+<text x="1762" y="609" class="b green" text-anchor="start">眉上安全线</text>
+<text x="1770" y="674" class="b green" text-anchor="start">约 2–4 mm 悬空间隙</text>
+<text x="1770" y="694" class="s" text-anchor="start">设计值，网格须预留，尚未建模</text>
+<text x="1770" y="712" class="s" text-anchor="start">不贴死、不压脸</text>
+<rect x="1262" y="900" width="1050" height="248" rx="10" class="card"/>
+<text x="1278" y="928" class="b ink" text-anchor="start">建议父子关系（尚未建骨，名称可调）</text>
+<text x="1278" y="956" class="t" text-anchor="start">角色身体 → 头部 / 颅骨刚性骨</text>
+<text x="1278" y="980" class="t" text-anchor="start">　└ ① SR_Acc_Anchor_L / R　　无独立动画</text>
+<text x="1278" y="1004" class="t" text-anchor="start">　　└ ② SR_Acc_CordRoot　　唯一摆动层，保持浅 V</text>
+<text x="1278" y="1028" class="t" text-anchor="start">　　　　├ 悬绳 L / R → ④ 侧豆（随绳微动）</text>
+<text x="1278" y="1052" class="t" text-anchor="start">　　　　└ ③ SR_Acc_Knot　触点与发光；不可独自大幅位移</text>
+<text x="1278" y="1116" class="s" text-anchor="start">表情隔离：固位不跟眉、眼、口、鼻、下颌骨或面部形变。</text>
+<text x="1278" y="1134" class="s" text-anchor="start">身体带动头部，配件只允许绳层那一拍。禁止自由摆锤。</text>
+<rect x="56" y="1220" width="2288" height="424" rx="14" class="card"/>
+<text x="84" y="1248" class="h2" text-anchor="start">制作准备要点（全部尚未实施，须真机验证后才能视为可行）</text>
+<text x="84" y="1276" class="note" text-anchor="start">摆动：建议先按左右 ±2°–4°、前后 ±3°–6° 起算，只能收紧，不得放宽到越线。默认静息几乎静止；闲聊不摆绳；确认可叠一拍；低头 / 前倾过程中锁幅。</text>
+<text x="84" y="1304" class="note" text-anchor="start">发光分档对齐正本：静息微光看 01 右侧与 02，完整发光看 04；确认一闪、晚安收光。光是局部暖金，不铺满脸，不把金属冲成贴纸。</text>
+<text x="84" y="1332" class="note" text-anchor="start">已知可保留（不得当缺陷改设计）：眉上空带略窄于 V3；03 空隙含蓄、微光弱于 02，须结合 04 与 08 阅读；固位藏进鬃毛，需靠 04 与 08 读全三件式。若再收只可略提固位或再缩绳，不得把结做大或下移。</text>
+<text x="84" y="1360" class="note" text-anchor="start">本图为结构示意，不可导入引擎，不作为已完成三维、已绑骨或已可上线的证据。矢量源与 PNG 预览同属示意，不以本图替代正本视觉稿。</text>
+</svg>

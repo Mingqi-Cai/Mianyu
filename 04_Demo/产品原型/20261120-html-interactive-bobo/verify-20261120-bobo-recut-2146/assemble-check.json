@@ -1,0 +1,38 @@
+{
+  "home": {
+    "title": "眠语 · 泊泊屏内 Demo",
+    "hasGlowImg": false,
+    "homeImgSrc": "assets/bobo-frame.jpg",
+    "homeNatural": [
+      1152,
+      864
+    ],
+    "skinClass": "screen skin-bobo",
+    "figSrc": "assets/bobo-figure.png",
+    "insertA": "assets/insert-a.png",
+    "insertB": "assets/insert-b.png"
+  },
+  "placed": {
+    "actorWidth": "276px",
+    "actorBottom": "197.75px",
+    "insertsDisplay": "none",
+    "eyesDisplay": "none",
+    "palmDisplay": "block",
+    "medalCenterPct": {
+      "cx": -40.96,
+      "cy": -188.92,
+      "r_w": 0,
+      "r_h": 0
+    },
+    "figNatural": [
+      1010,
+      737
+    ],
+    "figSrc": "assets/bobo-figure.png",
+    "insertA": "assets/insert-a.png",
+    "insertB": "assets/insert-b.png",
+    "sceneBackgroundImage": "url(\"file:///workspace/mianyu-demo/20261120-html-interactive-bobo-recut-2146/prototype/assets/room-night.jpg\")",
+    "hasGlowImg": false
+  },
+  "errors": []
+}

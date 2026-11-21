@@ -1,0 +1,39 @@
+{
+  "size": [
+    1010,
+    737
+  ],
+  "opaque_bbox": [
+    0,
+    4,
+    1005,
+    732
+  ],
+  "opaque_count": 508147,
+  "studio_creamish_opaque_count": 137,
+  "highlighted_cream_count": 88,
+  "mat_bbox": [
+    0,
+    528,
+    928,
+    732
+  ],
+  "mat_left_x": 0,
+  "mat_right_x": 928,
+  "mat_width": 929,
+  "canvas_right_margin_from_mat": 81,
+  "canvas_left_margin_from_opaque": 0,
+  "mat_left_edge_max_constant_run_px": 58,
+  "left_of_mat_opaque_pixels": 0,
+  "left_of_mat_cream_pixels": 0,
+  "left_of_mat_samples": [],
+  "gap_window": [
+    201,
+    382,
+    502,
+    600
+  ],
+  "gap_opaque": 63790,
+  "gap_cream": 0,
+  "handle_cream": 133
+}

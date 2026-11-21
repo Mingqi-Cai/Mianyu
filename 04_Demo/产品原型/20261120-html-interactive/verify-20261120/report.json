@@ -1,0 +1,155 @@
+{
+  "errors": [],
+  "checks": {
+    "s4HasSummon": true,
+    "s5HasSummon": true,
+    "playChipHiddenS2": true,
+    "playChipHiddenS6": true,
+    "noDuplicateEndOnFound": true,
+    "noDuplicateEndOnSilent": true,
+    "outroHidesFab": true,
+    "voiceSimulated": true,
+    "intents": [
+      "确认",
+      "靠近",
+      "闲聊",
+      "晚安"
+    ],
+    "endHasDisclaimer": true,
+    "foundSheetShorterAfter": false,
+    "foundHandsVisibleGuess": false
+  },
+  "s4Summon": {
+    "tag": "InScreenPlay · Hidden",
+    "title": "躲起来了",
+    "buttons": [
+      "算了，回来吧"
+    ],
+    "hasSummon": true,
+    "endFab": true,
+    "sheetEnds": false,
+    "spaceChip": false
+  },
+  "s5": {
+    "tag": "InScreenPlay · Hidden",
+    "buttons": [
+      "算了，回来吧"
+    ],
+    "hasSummon": true,
+    "endFab": true,
+    "sheetEnds": false,
+    "spaceChip": false
+  },
+  "s6": {
+    "tag": "InScreenPlay · Found",
+    "title": "它回来了",
+    "buttons": [
+      "插片确认",
+      "开始静默沟通",
+      "先看着"
+    ],
+    "sheetEnds": false,
+    "endFab": true,
+    "spaceChip": false,
+    "sheetHeight": 101,
+    "sheetTop": 700,
+    "sheetTopInScreen": 671,
+    "actorTop": 415,
+    "actorBottom": 655,
+    "actorMid": 523,
+    "midAboveSheet": true,
+    "handsGuessAboveSheet": true
+  },
+  "s6b": {
+    "tag": "InScreenPlay · Found",
+    "title": "它回来了",
+    "buttons": [
+      "开始静默沟通",
+      "先看着"
+    ],
+    "sheetEnds": false,
+    "endFab": true,
+    "spaceChip": false,
+    "sheetHeight": 122,
+    "sheetTop": 679,
+    "sheetTopInScreen": 650,
+    "actorTop": 367,
+    "actorBottom": 655,
+    "actorMid": 497,
+    "midAboveSheet": true,
+    "handsGuessAboveSheet": true
+  },
+  "s7": {
+    "tag": "InScreenPlay · SilentComm",
+    "endFab": true,
+    "sheetEnds": false,
+    "spaceChip": false,
+    "warn": "本原型不真开麦、不做语音识别。下面用意图按钮模拟「听懂」。"
+  },
+  "s8": {
+    "tag": "InScreenPlay · SilentComm",
+    "endFab": true,
+    "sheetEnds": false,
+    "spaceChip": false,
+    "intents": [
+      "确认",
+      "靠近",
+      "闲聊",
+      "晚安"
+    ],
+    "mic": "听着呢（模拟，未接真麦克风）"
+  },
+  "s9": {
+    "tag": "InScreenPlay · Outro",
+    "endFabHidden": true,
+    "spaceChip": false,
+    "title": "今晚就到这儿"
+  },
+  "s10": {
+    "tag": "Ended",
+    "endFabHidden": true,
+    "endSpace": true,
+    "body": "影盏还在。这是过夜仪式感与角色互动，不是医疗或心理咨询产品。"
+  },
+  "geometry": {
+    "s6": {
+      "tag": "InScreenPlay · Found",
+      "title": "它回来了",
+      "buttons": [
+        "插片确认",
+        "开始静默沟通",
+        "先看着"
+      ],
+      "sheetEnds": false,
+      "endFab": true,
+      "spaceChip": false,
+      "sheetHeight": 101,
+      "sheetTop": 700,
+      "sheetTopInScreen": 671,
+      "actorTop": 415,
+      "actorBottom": 655,
+      "actorMid": 523,
+      "midAboveSheet": true,
+      "handsGuessAboveSheet": true
+    },
+    "s6b": {
+      "tag": "InScreenPlay · Found",
+      "title": "它回来了",
+      "buttons": [
+        "开始静默沟通",
+        "先看着"
+      ],
+      "sheetEnds": false,
+      "endFab": true,
+      "spaceChip": false,
+      "sheetHeight": 122,
+      "sheetTop": 679,
+      "sheetTopInScreen": 650,
+      "actorTop": 367,
+      "actorBottom": 655,
+      "actorMid": 497,
+      "midAboveSheet": true,
+      "handsGuessAboveSheet": true
+    }
+  }
+}
