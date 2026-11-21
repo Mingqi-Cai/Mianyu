@@ -1,0 +1,31 @@
+本目录图像来源（屏内适配，不是新的视觉正本，不得当新正本入库）
+
+20261122 房间寻踪改版从 11-21 基线包原样带走下列图像，字节与哈希未改。代码文件见上一级 CHANGELOG.md。
+
+用字：/workspace/mianyu-ip-names/OFFICIAL-NAMES.txt
+本包住客界面只展示正式 IP「泊泊」。影盏相关文件仅随包保留，不在住客界面展示。
+
+bobo-figure.png
+  SHA-256：4aef69898d6f525b977ea7b8ac0f3a3b0cb5e99bb2c96b382190cc04c213ae38
+  尺寸：1010×737 RGBA，760517 字节。原样拷贝，未改像素。
+
+bobo-frame.jpg
+  官方 V3 残存展示帧原样复制，未改像素。
+  SHA-256：46007d733e5faf3c9e457c4ed3b37e687c6c18fd0130a0aa11d56256861779f6
+  尺寸：1152×864 JPEG。
+
+insert-a.png / insert-b.png
+  随基线一并拷来，页面仍引用这两张，但不叠到泊泊原立绘上。
+  insert-a SHA-256：4f606d490b3e18f077e87d6696b745adcb96726f23ccd90fdfb5259220c119f2
+  insert-b SHA-256：1ebd7be87646be19fe07a5a0e92478445acd0a70539718b4f0c2424e3e32e1c3
+
+room-night.jpg
+  客房场景底图，原样拷贝。
+  SHA-256：69a8d5bc36f17b5390600d254007e548594f39d3f6baa6998083b31dafd15a37
+
+yingzhan-figure.png、yingzhan-wall.jpg
+  随基线未污染资产保留，本改版住客界面不引用。
+  yingzhan-figure.png SHA-256：4477d8f61705992780dfd907e97d0ab3a48f6ce0ab76e3b3b3c7fda8f9621486
+  yingzhan-wall.jpg SHA-256：2ef83b16fc3ad3f5fba17f9d95aef7171f7d2176ab522d5812de124b00863103
+
+本包新增代码（非原画）：dialogue.js、motion.css、motion.js。改动的代码文件还有 styles.css、app.js，以及上一级 index.html。

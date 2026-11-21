@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <title>眠语 · 泊泊屏内 Demo</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/motion.css">
+</head>
+<body>
+  <div class="stage">
+    <div class="phone-scale" id="phoneScale">
+      <div class="phone" id="phone">
+        <div class="bezel">
+          <div class="screen skin-bobo" id="screen">
+
+            <header class="mp-bar" id="mpBar">
+              <div class="mp-left">
+                <span class="mp-dots" aria-hidden="true"></span>
+                <span class="mp-title">眠语</span>
+              </div>
+              <div class="mp-capsule" aria-hidden="true">
+                <span class="cap-dots"></span>
+                <span class="cap-split"></span>
+                <span class="cap-circle"></span>
+              </div>
+            </header>
+
+            <div class="badge qa-hidden" id="badge" hidden>屏内 Demo</div>
+            <div class="state-tag qa-hidden" id="stateTag" hidden></div>
+
+            <section class="view view-splash" id="viewSplash" hidden>
+              <div class="splash-mark">眠语</div>
+              <p>原创角色 · 睡前陪伴 · 娱乐互动</p>
+            </section>
+
+            <section class="view view-home" id="viewHome">
+              <div class="home-glow" aria-hidden="true"></div>
+              <div class="home-copy">
+                <h1>眠语</h1>
+                <p class="sub">原创角色 · 睡前陪伴 · 娱乐互动</p>
+                <div class="ip-line">
+                  <strong>泊泊</strong>
+                </div>
+                <p class="lead">今晚，和泊泊安静待一会儿。</p>
+              </div>
+              <div class="home-figure">
+                <div class="home-actor">
+                  <span class="home-halo" aria-hidden="true"></span>
+                  <img src="assets/bobo-frame.jpg" alt="原创角色泊泊" width="1152" height="864">
+                </div>
+              </div>
+              <div class="home-actions">
+                <button type="button" class="btn btn-primary" id="btnStartTonight">开始今晚</button>
+                <button type="button" class="btn btn-ghost" id="btnDialogueToggle" aria-pressed="false">打开对白</button>
+              </div>
+            </section>
+
+            <section class="view view-play" id="viewPlay" hidden>
+              <div class="scene" id="scene">
+                <div class="cue cue-window" aria-hidden="true"></div>
+                <div class="cue cue-lamp" aria-hidden="true"></div>
+                <button type="button" class="hotspot hot-window" id="hotWindow" data-hot="window" aria-label="窗边"></button>
+                <button type="button" class="hotspot hot-lamp" id="hotLamp" data-hot="lamp" aria-label="床头灯"></button>
+                <button type="button" class="hotspot hot-bag" id="hotBag" data-hot="bag" aria-label="行李箱"></button>
+                <div class="scene-touch" id="sceneTouch"></div>
+                <div class="tap-ripple" id="tapRipple" hidden></div>
+                <div class="actor" id="actor" hidden>
+                  <div class="actor-shadow" id="actorShadow"></div>
+                  <div class="actor-motion" id="actorMotion">
+                    <div class="actor-glow" id="actorGlow"></div>
+                    <img class="actor-fig" id="actorFig" src="assets/bobo-figure.png" alt="泊泊">
+                    <div class="ear-cover" aria-hidden="true">
+                      <img class="ear-cover-src" src="assets/bobo-figure.png" alt="">
+                    </div>
+                    <img class="ear-tag" id="earTag" src="assets/bobo-figure.png" alt="">
+                    <div class="gaze" id="gaze" aria-hidden="true"></div>
+                    <div class="actor-inserts" aria-hidden="true">
+                      <img class="insert insert-a on" id="insertA" src="assets/insert-a.png" alt="">
+                      <img class="insert insert-b" id="insertB" src="assets/insert-b.png" alt="">
+                    </div>
+                    <div class="actor-eyes" aria-hidden="true">
+                      <span class="eye eye-l"></span>
+                      <span class="eye eye-r"></span>
+                    </div>
+                    <div class="palm-glow" id="palmGlow"></div>
+                    <div class="stamp-glow" id="stampGlow"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="room-dock" id="roomDock" hidden>
+                <p class="dock-caption" id="dockCaption">泊泊已经在窗边。可以只是看着，也可以轻轻点一点。</p>
+                <div class="btn-row">
+                  <button type="button" class="btn btn-quiet" id="btnGreet">和泊泊打个招呼</button>
+                  <button type="button" class="btn btn-quiet" id="btnSeek">找找泊泊</button>
+                </div>
+                <button type="button" class="dialogue-toggle" id="btnDialogueToggleDock" aria-pressed="false">打开对白</button>
+              </div>
+
+              <div class="seek-layer" id="seekLayer" hidden>
+                <div class="seek-hint">
+                  <p id="seekPrompt">慢慢转动手机，看看泊泊藏在哪个角落。</p>
+                  <p class="meta">虚拟房间 · 也可以左右拖动</p>
+                </div>
+                <div class="seek-room" id="seekRoom" aria-label="虚拟房间">
+                  <div class="seek-pan" id="seekPan">
+                    <button type="button" class="seek-corner" data-corner="curtain" aria-label="窗帘边">窗帘边</button>
+                    <button type="button" class="seek-corner" data-corner="rack" aria-label="行李架旁">行李架旁</button>
+                    <button type="button" class="seek-corner" data-corner="bedfoot" aria-label="床尾">床尾</button>
+                    <button type="button" class="seek-corner" data-corner="nightstand" aria-label="床头柜">床头柜</button>
+                  </div>
+                  <div class="seek-trail" id="seekTrail" aria-hidden="true"></div>
+                </div>
+                <div class="seek-actions">
+                  <button type="button" class="btn btn-quiet" id="btnSeekGyro">转动手机找</button>
+                  <div class="btn-row">
+                    <button type="button" class="btn btn-primary" id="btnFound">找到你了</button>
+                    <button type="button" class="btn btn-ghost" id="btnRecall">叫泊泊回来</button>
+                  </div>
+                  <button type="button" class="btn btn-ghost" id="btnSeekCancel">先不找了</button>
+                </div>
+              </div>
+
+              <div class="stamp-layer" id="stampLayer" hidden>
+                <div class="stamp-card" role="dialog" aria-modal="true" aria-labelledby="stampTitle">
+                  <h2 id="stampTitle">给今晚盖个章</h2>
+                  <div class="stamp-tag" id="stampTag" aria-hidden="true"></div>
+                  <p class="meta">选一个图样，再盖章。可随时回去看泊泊。</p>
+                  <div class="btn-row stamp-choices">
+                    <button type="button" class="chip" id="btnStampWindow" data-stamp="window" aria-pressed="false">窗边</button>
+                    <button type="button" class="chip" id="btnStampLamp" data-stamp="lamp" aria-pressed="false">床头灯</button>
+                  </div>
+                  <button type="button" class="btn btn-primary" id="btnStamp">盖章</button>
+                  <button type="button" class="btn btn-ghost" id="btnStampCancel">回去看泊泊</button>
+                </div>
+              </div>
+
+              <div class="dialogue-layer" id="dialogueLayer" hidden>
+                <div class="dialogue-card">
+                  <p class="dialogue-line" id="dialogueLine" aria-live="polite"></p>
+                  <p class="dialogue-note">对白样本 · 待确认</p>
+                  <div class="dialogue-actions">
+                    <button type="button" class="btn btn-ghost" id="btnDialogueSkip">跳过</button>
+                    <button type="button" class="btn btn-ghost" id="btnDialogueOff">关闭对白</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sheet" id="sheet"></div>
+            </section>
+
+            <section class="view view-end" id="viewEnd" hidden>
+              <div class="end-inner">
+                <h2 class="end-line">泊泊把窗边的光留了一小会儿。<br>晚安。</h2>
+                <div class="end-actions">
+                  <button type="button" class="btn btn-primary" id="btnBackHome">回到首页</button>
+                </div>
+              </div>
+            </section>
+
+            <div class="modal" id="modal" hidden>
+              <div class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle"></div>
+            </div>
+
+            <button type="button" class="end-fab" id="btnEnd">今晚就到这儿</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="open-hint">用浏览器直接打开 <code>index.html</code> 即可，无需启动本地服务器。</p>
+  </div>
+  <script src="assets/app.js"></script>
+  <script src="assets/dialogue.js"></script>
+  <script src="assets/motion.js"></script>
+
+  <svg width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute;width:0;height:0;overflow:hidden">
+    <defs>
+      <mask id="boboEarPunch" maskUnits="objectBoundingBox" maskContentUnits="objectBoundingBox">
+        <rect x="0" y="0" width="1" height="1" fill="#fff"/>
+        <polygon fill="#000" points="0.730,0.145 0.770,0.132 0.810,0.155 0.825,0.210 0.825,0.310 0.820,0.390 0.812,0.445 0.816,0.490 0.818,0.535 0.805,0.560 0.778,0.562 0.760,0.548 0.758,0.500 0.762,0.455 0.750,0.410 0.732,0.320 0.728,0.220"/>
+      </mask>
+    </defs>
+  </svg>
+</body>
+</html>
